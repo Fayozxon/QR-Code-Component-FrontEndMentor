@@ -1,0 +1,71 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Core Styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Outfit", "Segoe UI", sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	flex-direction: column;
+	background: hsl(212, 45%, 89%);
+}
+
+/* Attribution Styles */
+
+.attribution {
+	padding-top: 30px;
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/* Card Styles */
+
+.card {
+	width: 300px;
+	padding: 15px;
+	border-radius: 17px;
+	background: hsl(0, 0%, 100%);
+	box-shadow: 0 10px 35px hsl(220deg 15% 55% / 30%);
+}
+
+.card__img-box {
+	width: 100%;
+}
+
+.card__img-box img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+/* Card-info Styles */
+
+.card__info {
+	padding: 14px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.card__info-title {
+	padding-bottom: 13px;
+	color: hsl(218, 44%, 22%);
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.card__info-text {
+	color: hsl(220, 15%, 55%);
+	font-size: 15px;
+}
